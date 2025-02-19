@@ -3,10 +3,10 @@ declare(strict_types=1);
 
 //session_start();
 
-$host = '127.0.0.1';
-$dbname = 'gestion_collectes';
-$username = 'root';
-$password = '';
+$host = 'mysql-littoral.alwaysdata.net';
+$dbname = 'littoral_propre';
+$username = 'littoral';
+$password = 'chaton123';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password, [
